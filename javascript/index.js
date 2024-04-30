@@ -46,11 +46,10 @@ function updateTime() {
                 </div>
                 `;
     }
-    
-    updateTime();
-    setInterval(updateTime, 1000);
 
-    let citiesSelectElement = document.querySelector("#city");
-    citiesSelectElement.addEventListener("change", updateCity);
-            
-        
+
+    updateTime();
+setInterval(updateTime, 1000);
+
+let citiesSelectElement = document.querySelector("#city");
+citiesSelectElement.addEventListener("change", updateCity);
